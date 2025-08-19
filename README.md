@@ -8,8 +8,8 @@ Dự án demo **E-Commerce** tích hợp **Stripe Checkout** để thanh toán o
 
 ### 1. Clone repository
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/tri-0412/E-commerce.git
+cd my-commerce-tut
 ```
 2. Cài đặt dependencies
 ```
@@ -18,7 +18,6 @@ npm install
 3. Cấu hình biến môi trường
 Tạo file .env.local và thêm Stripe Secret Key:
 ```
-env
 STRIPE_SECRET_KEY=sk_test_xxx
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_xxx
 ```
